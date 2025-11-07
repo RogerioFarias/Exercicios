@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+pode apenas uma ID por página de HTML
+
+em HTML é Id    = em css é #
+em css é class  = em css é .
+*/
+
+*{
+ 
+}
+
+body {
+    background-color: rgb(162, 253, 162);
+}
+
+h1 {
+    color: rgb(71, 146, 71);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(34, 56, 34);
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
